@@ -1,0 +1,17 @@
+{
+  "name": "carApp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.0",
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}

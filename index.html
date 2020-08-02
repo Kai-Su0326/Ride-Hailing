@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4bThnZtDKasPeCI6HOacHyNZwdZDRycE&callback=initMap&libraries=geometry"></script>
+</head>
+<body>
+<div class="container">
+    <div class="driver">
+        <h2>I'm a driver:</h2>
+        <form class="dform">
+            <label for="dusername">Username:</label>
+            <input type="text" id="dusername" name="dusername"><br><br>
+            <label for="dlat">Latitude:</label>
+            <input type="number" id="dlat" name="dlat"><br><br>
+            <label for="dlng">Longitude:</label>
+            <input type="number" id="dlng" name="dlng"><br><br>
+            <button id="dbtn">Submit</button>
+        </form>
+
+    </div>
+    <div class="passenger">
+        <h2>I'm a passenger:</h2>
+        <form class="pform">
+            <label for="pusername">Username:</label>
+            <input type="text" id="pusername" name="pusername"><br><br>
+            <label for="plat">Latitude:</label>
+            <input type="number" id="plat" name="plat"><br><br>
+            <label for="plng">Longitude:</label>
+            <input type="number" id="plng" name="plng"><br><br>
+            <button id="pbtn">Submit</button>
+        </form>
+
+    </div>
+</div>
+
+<div id="map"></div>
+
+<script type="text/javascript" src="car.js"></script>
+</body>
+</html>
